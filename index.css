@@ -1,0 +1,128 @@
+ /* Global Styles */
+ body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Card Container */
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+/* Card Title */
+.card h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* Card Description */
+.card p {
+    color: hsl(215, 51%, 70%);
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+/* Info Section */
+.card .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.card .info .price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.card .info .price img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.card .info .time {
+    display: flex;
+    align-items: center;
+}
+
+.card .info .time img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+/* Creator Section */
+.card .creator {
+    display: flex;
+    align-items: center;
+}
+
+.card .creator img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.card .creator span {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.card .creator a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card .creator a:hover {
+    color: hsl(178, 100%, 50%);
+}
+.head{
+  color: hsl(0, 0%, 100%);
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.title{
+  color: hsl(215, 51%, 70%);
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+
+}
+/* Separator Line */
+  .separator {
+border-top: 1px solid hsl(215, 32%, 27%);
+margin: 20px 0; /* Adds space above and below the line */
+}
